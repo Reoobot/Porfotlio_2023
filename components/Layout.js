@@ -1,7 +1,30 @@
-export default function Layout() {
-    return(
+import NavigationCard from "@/components/NavigationCard";
+import PostCard from "@/components/PostCard"; // Corregido el nombre del componente
+import PostFormCard from "@/components/PostFormCard";
+
+export default function Layout({hideNavigation}) {
+    let rightColumnClasses = '';
+
+    if(hideNavigation) {
+        rightColumnClasses += 'w-full';
+    }else {
+        rightColumnClasses += 'm:w-9/12'
+    }
+
+  return (
+    <div className="md:flex mt-4 max-w-4xl mx-auto gap-6">
+        {!hideNavigation && (
+
+      <div className="fixed md:static w-full bottom-0 md:w-3/12 -mb-5">
+        <NavigationCard />
+      </div>
+        )}
+      <div className={rightColumnClasses}> {/* Corregido para ocupar el espacio restante */}
+        <PostFormCard />
         <div>
-            flx mt
+          <PostCard />
         </div>
-    )
+      </div>
+    </div>
+  );
 }

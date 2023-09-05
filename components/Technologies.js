@@ -1,30 +1,9 @@
-import Card from "./Card";
-
-export default function PostCard(){
+export default function Technologies(){
     return(
-        <Card>
-            <div>
-                <h2 className="text-3xl">
-                    My latest blog posts
-                </h2>
-            </div>
-            <div className="grid grid-cols-[2fr_1fr]">
-            <div className="my-8 ">
-                <img className='rounded-md' src="https://www.davidhu.io/_astro/hero-image_pVqCX.avif" alt=""/>
-                <p>First Post on My new Blog</p>
-            </div>
-            <div className="my-8">
-                <img className='rounded-md' src="https://www.davidhu.io/_astro/hero-image_pVqCX.avif" alt=""/>
-                <p>First Post on My new Blog</p>
-            </div>
-            <div className="my-8">
-                <img className='rounded-md' src="https://www.davidhu.io/_astro/hero-image_pVqCX.avif" alt=""/>
-                <p>First Post on My new Blog</p>
-            </div>
-            </div>
-            <div className="bg-prymary rounded-md">
-                <p className="text-center text-gray-300">TECHNOLOGIES</p>
-                <h2 className="text-3xl text-white text-center">
+        <div className="mt-5">
+             <div className="bg-prymary rounded-md ">
+                <p className="text-center text-gray-300 ">TECHNOLOGIES</p>
+                <h2 className="text-3xl text-white text-center font-semibold">
                     What I used to build this site
                 </h2>
                 <div className="grid grid-cols-2 px-10 ">
@@ -35,7 +14,7 @@ export default function PostCard(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white text-2xl">ReactJs</p>
+                                <p className="text-white md:text-2xl">ReactJs</p>
                         </div>
                     </div>
                     <div className="flex gap-3 items-center my-8 py-3">
@@ -45,7 +24,7 @@ export default function PostCard(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white text-2xl">Nextjs</p>
+                                <p className="text-white md:text-2xl">Nextjs</p>
                         </div>
                     </div>
                     <div className="flex gap-3 items-center my-8 py-3">
@@ -55,7 +34,7 @@ export default function PostCard(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white text-2xl">JavascriptsJs</p>
+                                <p className="text-white md:text-2xl">JavascriptsJs</p>
                         </div>
                     </div>
                     <div className="flex gap-3 items-center my-8 py-3">
@@ -65,16 +44,11 @@ export default function PostCard(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white text-2xl">TailwindCSS</p>
+                                <p className="text-white md:text-2xl">TailwindCSS</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-            <h2 className="my-5 mb-20">
-                    sssss
-                </h2>
-            </div>
-        </Card>
-    )
+        </div>
+    );
 }
