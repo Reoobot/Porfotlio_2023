@@ -1,8 +1,9 @@
 import NavigationCard from "@/components/NavigationCard";
-import PostCard from "@/components/PostCard"; // Corregido el nombre del componente
+import PostCard from "@/components/PostCard"; 
 import PostFormCard from "@/components/PostFormCard";
+import NavProject from "./NavProject";
 
-export default function Layout({hideNavigation}) {
+export default function NavLayout({hideNavigation}) {
     let rightColumnClasses = '';
 
     if(hideNavigation) {
@@ -12,17 +13,16 @@ export default function Layout({hideNavigation}) {
     }
 
   return (
-    <div className="md:flex mt-4 max-w-4xl mx-auto gap-6">
+    <div className="md:flex mt-4 max-w-8xl mx-auto ">
         {!hideNavigation && (
-
-      <div className="fixed md:static w-full bottom-0 md:w-3/12 -mb-5">
+      <div className="fixed md:static w-full bottom-0  -mb-5">
         <NavigationCard />
       </div>
         )}
-      <div className={rightColumnClasses}> 
-        <PostFormCard />
+      <div className={rightColumnClasses}> {/* Corregido para ocupar el espacio restante */}
+        {/* <PostFormCard /> */}
         <div>
-          <PostCard />
+          {/* <NavProject /> */}
         </div>
       </div>
     </div>

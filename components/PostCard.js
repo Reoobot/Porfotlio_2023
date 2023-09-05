@@ -9,7 +9,7 @@ export default function PostCard(){
            <Blog/>
            <Technologies/>
             <div>
-            <h2 className="text-3xl m-5 text-center font-semibold">
+                <h2 className="text-3xl m-5 text-center font-semibold">
                    Project
                 </h2>
             </div>

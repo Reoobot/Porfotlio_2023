@@ -3,7 +3,7 @@ import Card from "./Card";
 export default function NavigationCard(){
     return(
         <Card>
-            <div className="md:px-4 py-2 flex md:block">
+            <div className="md:px-4 py-2  flex md:block">
                 <a href="/">
                     <h2 className='text-gray-500 font-bold mb-3 hidden md:block'>FREDDY VEGAS</h2>
                 </a>

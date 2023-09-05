@@ -1,9 +1,7 @@
     
 
 export default function PostFormCard(){
-   
-
-    return(
+       return(
      
             <div className="relative text-center">
                 <div className="">
