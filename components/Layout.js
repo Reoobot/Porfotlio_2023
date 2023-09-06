@@ -1,5 +1,5 @@
 import NavigationCard from "@/components/NavigationCard";
-import PostCard from "@/components/PostCard"; // Corregido el nombre del componente
+import PostCard from "@/components/PostCard"; 
 import PostFormCard from "@/components/PostFormCard";
 
 export default function Layout({hideNavigation}) {

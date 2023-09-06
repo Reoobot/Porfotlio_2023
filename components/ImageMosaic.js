@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const ImageMosaic = () => {
-  // Crear un array con los nombres de archivo de las imágenes
+ 
   const imageNames = [
     'chat.jpeg',
     'game.jpeg',
@@ -19,7 +19,7 @@ const ImageMosaic = () => {
     'hotel2.jpeg',
     'porfolio.2.jpeg',
     'social2.jpeg',
-    // Otras imágenes...
+   
   ];
 
   return (
@@ -37,7 +37,7 @@ const ImageMosaic = () => {
           <div key={index} className="relative overflow-hidden rounded-lg shadow-md">
             <img
               className="w-full h-auto border border-gray-500 transform transition-transform hover:scale-105"
-              src={`/images/${imageName}`} // Ruta relativa a la carpeta "public"
+              src={`/images/${imageName}`} 
               alt={`Imagen ${index + 1}`}
             />
           </div>

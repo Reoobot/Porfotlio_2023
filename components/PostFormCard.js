@@ -23,7 +23,7 @@ export default function PostFormCard() {
           </span>
         </div>
       </div>
-      <div></div>
+ 
     </div>
   );
 }
