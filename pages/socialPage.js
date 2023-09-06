@@ -23,32 +23,13 @@ export default function SocialPage() {
                 <a href="https://social-pv5.vercel.app  " target="_blank" rel="noopener noreferrer">
                   <img className="rounded-md w-full cursor-pointer mb-20" src="/images/social2.jpeg" alt="Imagen de la aplicación Receta" />
                   <div className="absolute inset-0 flex justify-center items-center">
-                    <span className="text-blue-500 mr-1">Ir a esta dirección:</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-5 h-5 text-blue-500"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
+                  <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>  
+                 
                   </div>
                 </a>
               </div>
               <div className="m-auto">
-              <a 
-        href="/projectsPage"
-        className="inset-0 flex w-20 h-14 items-center justify-center  bg-green-400 hover:bg-green-500 shadow-lg shadow-gray-300 text-white font-semibold py-2 px-2 rounded-lg hover:bg-sportyfly-dark-blue transition duration-300"
-  
-      >
-        Volver
-      </a>
+      
               </div>
             </div>
           </CardFront>

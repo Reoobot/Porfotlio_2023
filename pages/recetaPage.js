@@ -19,13 +19,12 @@ export default function RecetaPage() {
                 "Receta" es una aplicación web culinaria que combina la potencia de MongoDB, React, JavaScript y CSS para brindar a los usuarios una experiencia excepcional en la búsqueda, almacenamiento y compartición de recetas de cocina. Esta aplicación se centra en la pasión por la cocina y la exploración de nuevas creaciones culinarias.
               </p>
               <div className="m-auto px-5 p-5 relative">
-                <a href="https://client-six-gules.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="rounded-md w-full cursor-pointer mb-36" src="/images/receta.jpeg" alt="Imagen de la aplicación Receta" />
                   <div className="absolute inset-0 flex justify-center items-center">
-                  <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>
-                    
-                  </div>
+                <a href="https://client-six-gules.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>  
                 </a>
+                  </div>
               </div>
             </div>
           </CardFront>

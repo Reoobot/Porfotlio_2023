@@ -1,8 +1,10 @@
 export default function BlogPage() {
+
+    
     return (
       <div className="bg-white p-4">
         <div>
-          <img className="rounded-md w-full" src="/images/blog1.jpeg" alt="Imagen de la aplicación Receta" />
+          <img className="rounded-md w-full" src="/images/blog1.jpeg" alt="Imagen" />
         </div>
         <div>
           <h1 className="text-3xl text-center my-4 font-semibold p-3">

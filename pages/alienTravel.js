@@ -19,12 +19,12 @@ export default function AlienTravel() {
               "Alien Travel" es una emocionante aplicación web que combina las tecnologías de HTML, CSS y JavaScript para llevar a los usuarios a un viaje intergaláctico de exploración y descubrimiento. Esta aplicación está diseñada para aquellos que desean experimentar aventuras fuera de este mundo y explorar los misterios del espacio exterior.
               </p>
               <div className="m-auto px-5 p-5 relative">
-                <a href="https://reoobot.github.io/Startup-Web-page/" target="_blank" rel="noopener noreferrer">
                   <img className="rounded-md w-full cursor-pointer mb-36" src="/images/travel.jpeg" alt="Imagen de la aplicación Receta" />
                   <div className="absolute inset-0 flex justify-center items-center mt-72">
+                <a href="https://reoobot.github.io/Startup-Web-page/" target="_blank" rel="noopener noreferrer">
                   <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a esta dirección</span>
-                  </div>
                 </a>
+                  </div>
               </div>
             </div>
           </CardFront>

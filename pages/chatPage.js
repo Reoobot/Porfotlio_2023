@@ -22,7 +22,7 @@ export default function chatPage() {
                 <a href="https://chat-coral-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <img className="rounded-md w-full cursor-pointer" src="/images/chat.jpeg" alt="Imagen de la aplicación Receta" />
                   <div className="absolute inset-0 flex justify-center items-center mt-72">
-                  <span className="text-blue-500 mr-1 text-2xl font-medium underline">Ir a esta dirección</span>
+                  <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>  
                     
                   </div>
                 </a>
