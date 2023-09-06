@@ -1,3 +1,5 @@
+import ImageMosaic from "./ImageMosaic";
+
     
 
 export default function PostFormCard(){
@@ -5,15 +7,18 @@ export default function PostFormCard(){
      
             <div className="relative text-center">
                 <div className="">
-                    <img className="m-auto mb-5 shadow-lg shadow-gray-700" src="https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt=""/>
+                    <img className="m-auto mb-5 shadow-lg shadow-gray-700" src="https://a0.muscache.com/im/pictures/miso/Hosting-861947805411509899/original/c4c6091e-d505-4af9-b80a-ef13d9fa3d7e.jpeg?im_w=1200" alt=""/>
                 </div>
                 <div className="text-center ">
-                    <div className="text-white absolute top-20">
+                    <div className="text-black absolute top-2 md:top-24">
                         <h2 className="text-4xl font-semibold ">
                         Welcome to Freddy personal site.
                         </h2><br/>
-                        <span className="text-lg">I work as a Full Stack Engineer and write blogs "sometimes" about all things software "so far"</span>
+                        <span className="text-lg font-medium">I work as a Full Stack Engineer and write blogs "sometimes" about all things software "so far"</span>
                     </div>
+                </div>
+                <div>
+                 
                 </div>
             </div>
         

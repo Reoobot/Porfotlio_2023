@@ -16,18 +16,40 @@ export default function ProjectsPage() {
           <div className="">
 
           <CardFront>
-          <a href="/hotelPage">
-            <div>
-                  <h2 className="text-3xl p-2 text-center font-semibold">
-                  Reservación-Hotel
-                  </h2>
-              </div>
-            <div className="m-auto px-5 p-5">
-              <img className="rounded-md " src="/images/hotel.jpeg" alt=""/>
-            </div>
-          </a>
+          <div className="relative text-center">
+      <img
+        className="rounded-md"
+        src="/images/hotel.jpeg"
+        alt=""
+      />
+      <a
+        href="/hotelPage"
+        className="absolute inset-0 flex w-20 h-14 items-center justify-center  bg-green-400 hover:bg-green-500 shadow-lg shadow-gray-300 text-white font-semibold py-2 px-2 rounded-lg hover:bg-sportyfly-dark-blue transition duration-300"
+        style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+      >
+        Ver
+      </a>
+    </div>
 
-          <a href="/socialPage">
+
+
+
+    <div className="relative text-center">
+      <img
+        className="rounded-md"
+        src="/images/social1.jpeg"
+        alt=""
+      />
+      <a
+        href="/socialPage"
+        className="absolute inset-0 flex w-20 h-14 items-center justify-center  bg-green-400 hover:bg-green-500 text-white font-semibold py-2 px-2 rounded-lg hover:bg-sportyfly-dark-blue transition duration-300"
+        style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+      >
+          Ver
+      </a>
+    </div>
+
+          {/* <a href="/socialPage">
             <div>
                   <h2 className="text-3xl p-2 text-center font-semibold">
                   Social Page
@@ -36,7 +58,7 @@ export default function ProjectsPage() {
             <div className="m-auto px-5 p-5">
               <img className="rounded-md " src="/images/social1.jpeg" alt=""/>
             </div>
-          </a>
+          </a> */}
           <a href="/ShopPage">
             <div>
                   <h2 className="text-3xl p-2 text-center font-semibold">

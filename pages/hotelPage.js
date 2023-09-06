@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Game() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto py-8">
       <div className="flex flex-col md:flex-row gap-4">
         <div className="md:w-1/4">
           <NavLayout />
@@ -20,23 +20,9 @@ export default function Game() {
               </p>
               <div className="m-auto px-5 p-5 relative">
                 <a href="https://a-hotel.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <img className="rounded-md w-full cursor-pointer" src="/images/hotel2.jpeg" alt="Imagen de la aplicación Receta" />
+                  <img className="rounded-md w-full cursor-pointer" src="/images/hotel2.jpeg" alt="Imagen de la aplicación hotel" />
                   <div className="absolute inset-0 flex justify-center items-center mt-72">
-                    <span className="text-blue-500 mr-1">Ir a esta dirección:</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-5 h-5 text-blue-500"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
+                    <span className="text-blue-500 mr-1 text-2xl font-medium underline">Ir a esta dirección</span>
                   </div>
                 </a>
               </div>

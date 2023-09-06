@@ -4,7 +4,7 @@ import React from "react";
 
 export default function FolioPage() {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto py-8">
       <div className="flex flex-col md:flex-row gap-4">
         <div className="md:w-1/4">
           <NavLayout />
@@ -22,7 +22,7 @@ export default function FolioPage() {
                 <a href="https://reoobot-portfolio-new.vercel.app" target="_blank" rel="noopener noreferrer">
                   <img className="rounded-md w-full cursor-pointer mb-36" src="/images/porfolio.2.jpeg" alt="Imagen de la aplicación Receta" />
                   <div className="absolute inset-0 flex justify-center items-center mb-32">
-                    <span className="text-blue-500 mr-1">Ir a esta dirección:</span>
+                  <span className="text-blue-500 mr-1 text-2xl font-medium underline">Ir a esta dirección</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

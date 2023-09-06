@@ -8,7 +8,7 @@ export default function Layout({hideNavigation}) {
     if(hideNavigation) {
         rightColumnClasses += 'w-full';
     }else {
-        rightColumnClasses += 'm:w-9/12'
+        rightColumnClasses += 'md:w-9/12'
     }
 
   return (

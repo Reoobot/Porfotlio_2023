@@ -7,18 +7,18 @@ export default function Blog(){
                 </h2>
             </div>
             <div className="text-center">
-                <div className="my-8">
+                <a href="/blogPage1" className="my-8">
                     <img className='rounded-md m-auto'  src="https://www.davidhu.io/_astro/hero-image_pVqCX.avif" alt=""/>
-                    <p className="my-2">First Post on My new Blog</p>
-                </div>
-                <div className="my-8">
+                    <p className="my-2 font-medium">Transformando mi Vida en un Bootcamp de Programación: Una Historia de Desafíos y Éxito</p>
+                </a>
+                {/* <div className="my-8">
                     <img className='rounded-md m-auto' src="https://www.davidhu.io/_astro/hero-image_pVqCX.avif" alt=""/>
                     <p className="my-2">First Post on My new Blog</p>
                 </div>
                 <div className="my-8">
                     <img className='rounded-md m-auto' src="https://www.davidhu.io/_astro/hero-image_pVqCX.avif" alt=""/>
                     <p className="my-2">First Post on My new Blog</p>
-                </div>
+                </div> */}
             </div>
         </div>
     );

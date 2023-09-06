@@ -4,8 +4,9 @@
 
 
 body{
-  background-color: #111827;
+  /* background-color: #111827; */
   /* background-color: #000000; */
+  background-color: #F5F7FB;
 }
 
 
@@ -24,4 +25,30 @@ body{
 
 .text-shadow-md {
   text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.mosaic-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas en el mosaico */
+  gap: 10px; /* Espacio entre las imágenes */
+  width: 80%; /* Ancho del contenedor del mosaico */
+  margin: 0 auto; /* Centrar el mosaico horizontalmente */
+}
+
+.mosaic-image {
+  width: 100%;
+  padding-top: 100%; /* Proporción de aspecto 1:1 para cada cuadro de imagen */
+  position: relative;
+  overflow: hidden;
+}
+
+.mosaic-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para que las imágenes se ajusten al tamaño del cuadro */
 }

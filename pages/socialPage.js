@@ -41,6 +41,15 @@ export default function SocialPage() {
                   </div>
                 </a>
               </div>
+              <div className="m-auto">
+              <a 
+        href="/projectsPage"
+        className="inset-0 flex w-20 h-14 items-center justify-center  bg-green-400 hover:bg-green-500 shadow-lg shadow-gray-300 text-white font-semibold py-2 px-2 rounded-lg hover:bg-sportyfly-dark-blue transition duration-300"
+  
+      >
+        Volver
+      </a>
+              </div>
             </div>
           </CardFront>
         </div>
