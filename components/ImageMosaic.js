@@ -1,6 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Image from 'next/image';
+import ButtonStart from './ButtonStart';
 
 const ImageMosaic = () => {
  
@@ -24,6 +26,11 @@ const ImageMosaic = () => {
 
   return (
     <div className="border-socialBg p-3">
+      <div className='mt-20'>
+        <h2 className="text-3xl text-center my-4 font-semibold">
+          My Projects
+        </h2>
+      </div>
       <Carousel
         showArrows={true}
         showStatus={false}
@@ -34,11 +41,12 @@ const ImageMosaic = () => {
         transitionTime={500} 
       >
         {imageNames.map((imageName, index) => (
-          <div key={index} className="relative overflow-hidden rounded-lg shadow-md">
-            <img
-              className="w-full h-auto border border-gray-500 transform transition-transform hover:scale-105"
+          <div key={index} className="relative overflow-hidden rounded-lg shadow-md w-60 m-auto mt-3">
+            <Image
               src={`/images/${imageName}`} 
               alt={`Imagen ${index + 1}`}
+              width={500} 
+              height={300} 
             />
           </div>
         ))}

@@ -16,17 +16,23 @@ export default function SocialPage() {
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
               <p className="text-gray-600 z-10 relative p-3">
-              "Social Page" es una impresionante aplicación web creada con tecnologías de vanguardia como Next.js y Style Company, respaldada por potentes soluciones en la nube como Superbase, Google Cloud y AWS. Esta plataforma redefine la experiencia de las redes sociales al ofrecer una amplia gama de funciones innovadoras y una robusta infraestructura en la nube para garantizar un rendimiento óptimo.
+              Social Page es una impresionante aplicación web creada con tecnologías de vanguardia como Next.js y 
+              Style Company, respaldada por potentes soluciones en la nube como Superbase, Google Cloud y AWS. 
+              Esta plataforma redefine la experiencia de las redes sociales al ofrecer una amplia gama de funciones 
+              innovadoras y una robusta infraestructura en la nube para garantizar un rendimiento óptimo.
               </p>
              
               <div className="m-auto px-5 p-5 relative">
-                <a href="https://social-pv5.vercel.app  " target="_blank" rel="noopener noreferrer">
-                  <img className="rounded-md w-full cursor-pointer mb-20" src="/images/social2.jpeg" alt="Imagen de la aplicación Receta" />
+                  <img className="rounded-md w-full cursor-pointer mb-20" 
+                        src="/images/social2.jpeg" 
+                        alt="Imagen de la aplicación Tienda oline" 
+                        width={500} 
+                        height={300}/>
                   <div className="absolute inset-0 flex justify-center items-center">
+                <a href="https://social-pv5.vercel.app  " target="_blank" rel="noopener noreferrer">
                   <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>  
-                 
-                  </div>
                 </a>
+                  </div>
               </div>
               <div className="m-auto">
       

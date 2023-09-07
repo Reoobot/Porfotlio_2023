@@ -1,4 +1,5 @@
 import Blog from "./Blog";
+import ButtonStart from "./ButtonStart";
 import Card from "./Card";
 import Project from "./Project";
 import Technologies from "./Technologies";
@@ -16,6 +17,9 @@ export default function PostCard(){
             <div>
                 <Project/>
             </div>
+           
+                <ButtonStart/>
+           
         </Card>
     )
 }

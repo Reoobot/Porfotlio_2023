@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Start() {
   const containerStyle = {
     backgroundColor: "#111827", 
@@ -10,7 +12,7 @@ export default function Start() {
           Welcome to Freddy personal site.
         </span>
       </h2>
-      <a
+      <Link
         className="flex items-center justify-center bg-green-400 hover:bg-green-500 text-white font-semibold rounded-full px-4 py-2 transition duration-300 ease-in-out"
         href="/publicPage"
       >
@@ -29,7 +31,7 @@ export default function Start() {
           ></path>
         </svg>
         START A PROJECT
-      </a>
+      </Link>
     </div>
   );
 }

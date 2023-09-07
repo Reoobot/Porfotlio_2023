@@ -1,5 +1,6 @@
 import CardFront from "@/components/CardFront";
 import NavLayout from "@/components/NavLayout";
+import Image from "next/image";
 import React from "react";
 
 export default function RecetaPage() {
@@ -16,10 +17,17 @@ export default function RecetaPage() {
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
               <p className="text-gray-600 z-10 relative p-3">
-                "Receta" es una aplicación web culinaria que combina la potencia de MongoDB, React, JavaScript y CSS para brindar a los usuarios una experiencia excepcional en la búsqueda, almacenamiento y compartición de recetas de cocina. Esta aplicación se centra en la pasión por la cocina y la exploración de nuevas creaciones culinarias.
+                Receta social es una aplicación web culinaria que combina la potencia de MongoDB, React, JavaScript y 
+                CSS para brindar a los usuarios una experiencia excepcional en la búsqueda, almacenamiento y 
+                ompartición de recetas de cocina. Esta aplicación se centra en la pasión por la cocina y la exploración 
+                de nuevas creaciones culinarias.
               </p>
               <div className="m-auto px-5 p-5 relative">
-                  <img className="rounded-md w-full cursor-pointer mb-36" src="/images/receta.jpeg" alt="Imagen de la aplicación Receta" />
+                  <Image className="rounded-md w-full cursor-pointer mb-36" 
+                        src="/images/receta.jpeg" 
+                        alt="Imagen de la aplicación Receta" 
+                        width={500} 
+                        height={300}/>
                   <div className="absolute inset-0 flex justify-center items-center">
                 <a href="https://client-six-gules.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>  

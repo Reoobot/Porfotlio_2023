@@ -1,6 +1,6 @@
 export default function Technologies(){
     return(
-        <div className="mt-5">
+        <div className="mt-5 p-4">
              <div className="bg-prymary rounded-md ">
                 <p className="text-center text-gray-300 ">TECHNOLOGIES</p>
                 <h2 className="text-3xl text-white text-center font-semibold">
@@ -14,7 +14,7 @@ export default function Technologies(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white md:text-2xl">ReactJs</p>
+                                <p className="text-white text-sm md:text-2xl">ReactJs</p>
                         </div>
                     </div>
                     <div className="flex gap-3 items-center my-8 py-3">
@@ -24,7 +24,7 @@ export default function Technologies(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white md:text-2xl">Nextjs</p>
+                                <p className="text-white text-sm md:text-2xl">Nextjs</p>
                         </div>
                     </div>
                     <div className="flex gap-3 items-center my-8 py-3">
@@ -34,7 +34,7 @@ export default function Technologies(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white md:text-2xl">JavascriptsJs</p>
+                                <p className="text-white text-sm md:text-2xl">JavascriptsJs</p>
                         </div>
                     </div>
                     <div className="flex gap-3 items-center my-8 py-3">
@@ -44,7 +44,7 @@ export default function Technologies(){
                             </svg>
                         </div>
                             <div className="">
-                                <p className="text-white md:text-2xl">TailwindCSS</p>
+                                <p className="text-white text-sm md:text-2xl">TailwindCSS</p>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,7 @@
 import CardFront from "@/components/CardFront";
 import NavLayout from "@/components/NavLayout";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Game() {
@@ -16,15 +18,22 @@ export default function Game() {
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
               <p className="text-gray-600 z-10 relative p-3">
-              La aplicación web de "Reservación de Hotel" es una solución moderna y eficaz diseñada para simplificar y mejorar la experiencia de reserva de alojamiento. Construida sobre tecnologías de punta como Next.js, Tailwind CSS, MongoDB y JWT (JSON Web Tokens), esta plataforma ofrece una variedad de funciones que hacen que planificar un viaje y encontrar el alojamiento ideal sea más sencillo y seguro que nunca.
+              La aplicación web de Reservación de Hotel es una solución moderna y eficaz diseñada para simplificar 
+              y mejorar la experiencia de reserva de alojamiento. Construida sobre tecnologías de punta como Next.js, 
+              Tailwind CSS, MongoDB y JWT (JSON Web Tokens), esta plataforma ofrece una variedad de funciones que hacen 
+              que planificar un viaje y encontrar el alojamiento ideal sea más sencillo y seguro que nunca.
               </p>
               <div className="m-auto px-5 p-5 relative">
-                <a href="https://a-hotel.vercel.app" target="_blank" rel="noopener noreferrer">
-                  <img className="rounded-md w-full cursor-pointer" src="/images/hotel2.jpeg" alt="Imagen de la aplicación hotel" />
+                  <Image className="rounded-md w-full cursor-pointer" 
+                        src="/images/hotel2.jpeg" 
+                        alt="Imagen de la aplicación hotel"
+                        width={500} 
+                        height={300}/>
                   <div className="absolute inset-0 flex justify-center items-center mt-72">
+                <Link href="https://a-hotel.vercel.app" target="_blank" rel="noopener noreferrer">
                   <span className=" bg-green-400 hover:bg-green-500 text-white  mr-1 text-2xl font-medium shadow-lg shadow-gray-500 border solid p-1 rounded-sm ">Ir a este sitio web</span>  
+                </Link>
                   </div>
-                </a>
               </div>
             </div>
           </CardFront>
