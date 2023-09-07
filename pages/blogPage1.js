@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BlogPage() {
 
@@ -6,7 +7,12 @@ export default function BlogPage() {
     return (
       <div className="bg-white p-4">
         <div>
-          <img className="rounded-md w-full" src="/images/blog1.jpeg" alt="Imagen" />
+          <Image
+              className="rounded-md w-full" 
+              src="/images/blog1.jpeg" 
+              alt="Imagen" 
+              width={500} 
+              height={300}/>
         </div>
         <div>
           <h1 className="text-3xl text-center my-4 font-semibold p-3">
@@ -62,7 +68,7 @@ export default function BlogPage() {
           ))}
         </div>
         <div>
-        <a
+        <Link
             className="flex items-center justify-center bg-green-400 hover:bg-green-500 text-white font-semibold rounded-full px-4 py-2 transition duration-300 ease-in-out"
             href="/publicPage"
           >
@@ -81,7 +87,7 @@ export default function BlogPage() {
               ></path>
             </svg>
             START A PROJECT
-          </a>
+          </Link>
         </div>
       </div>
     );

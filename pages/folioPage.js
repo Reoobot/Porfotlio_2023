@@ -17,12 +17,26 @@ export default function FolioPage() {
               <h1 className="text-3xl font-semibold p-3">Portfolio Factoía F5</h1>
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
-              <p className="text-gray-600 z-10 relative p-3">
-              Portfolio Factoria F5 es una asombrosa aplicación web desarrollada con React y 
-              estilizada con la popular biblioteca de diseño CSS, Tailwind CSS. Esta plataforma 
-              redefine la forma en que los profesionales y creativos pueden presentar sus habilidades, 
-              proyectos y experiencias de una manera altamente personalizada y visualmente atractiva.
-              </p>
+              <div>
+                <p className="text-gray-600 z-10 relative p-3">
+                Portfolio Factoria F5 es una asombrosa aplicación web desarrollada con React y 
+                estilizada con la popular biblioteca de diseño CSS, Tailwind CSS. Esta plataforma 
+                redefine la forma en que los profesionales y creativos pueden presentar sus habilidades, 
+                proyectos y experiencias de una manera altamente personalizada y visualmente atractiva.
+                </p>
+                <div className="m-auto flex justify-center mt-8">
+                        <Link href="/payPage" className="items-center">
+                          <span className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                              Volver
+                          </span>
+                        </Link>
+                        <Link href="/uploadImage" className="items-center ml-3">
+                          <span className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                            Seguir
+                          </span>
+                        </Link>
+                    </div>
+              </div>
               <div className="m-auto px-5 p-5 relative">
                   <Image className="rounded-md w-full cursor-pointer mb-36" 
                           src="/images/porfolio.2.jpeg" 

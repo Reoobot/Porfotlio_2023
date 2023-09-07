@@ -17,6 +17,7 @@ export default function UploadImage() {
               <h1 className="text-3xl font-semibold p-3">Upload-Imagen</h1>
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
               <p className="text-gray-600 z-10 relative p-3">
              
               Upload Imágenes es una aplicación web diseñada con tecnologías modernas como Next.js y 
@@ -24,6 +25,19 @@ export default function UploadImage() {
               Esta aplicación es especialmente útil para aquellos que desean compartir imágenes, fotos o gráficos con 
               otros usuarios, ya sea con fines personales o profesionales.
               </p>
+                <div className="m-auto flex justify-center mt-8">
+                    <Link href="/folioPage" className="items-center">
+                    <span className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                    Volver
+                    </span>
+                    </Link>
+                    <Link href="/marketPlace" className="items-center ml-3">
+                      <span className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                      Seguir
+                      </span>
+                    </Link>
+                </div>
+              </div>
               <div className="m-auto px-5 p-5 relative">
                   <Image className="rounded-md w-full cursor-pointer mb-36" 
                        src="/images/imagenes.jpeg" 

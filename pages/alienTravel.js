@@ -17,12 +17,26 @@ export default function AlienTravel() {
               <h1 className="text-3xl font-semibold p-3">Alien Travel</h1>
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
-              <p className="text-gray-600 z-10 relative p-3">
-              Alien Travel es una emocionante aplicación web que combina las tecnologías de HTML, 
-              CSS y JavaScript para llevar a los usuarios a un viaje intergaláctico de exploración y 
-              descubrimiento. Esta aplicación está diseñada para aquellos que desean experimentar aventuras 
-              fuera de este mundo y explorar los misterios del espacio exterior.
-              </p>
+              <div>
+                <p className="text-gray-600 z-10 relative p-3">
+                Alien Travel es una emocionante aplicación web que combina las tecnologías de HTML, 
+                CSS y JavaScript para llevar a los usuarios a un viaje intergaláctico de exploración y 
+                descubrimiento. Esta aplicación está diseñada para aquellos que desean experimentar aventuras 
+                fuera de este mundo y explorar los misterios del espacio exterior.
+                </p>
+                <div className="m-auto flex justify-center mt-8">
+                   <Link href="/soundPage" className="items-center">
+                     <span className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                        Volver
+                     </span>
+                    </Link>
+                    <Link href="/recetaPage" className="items-center ml-3">
+                          <span className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                          Seguir
+                      </span>
+                  </Link>
+                </div> 
+              </div>
               <div className="m-auto px-5 p-5 relative">
                   <Image className="rounded-md w-full cursor-pointer mb-36" 
                        src="/images/travel.jpeg" 

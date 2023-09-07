@@ -1,6 +1,7 @@
 import CardFront from "@/components/CardFront";
 import NavLayout from "@/components/NavLayout";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function ShopPage() {
@@ -16,18 +17,31 @@ export default function ShopPage() {
               <h1 className="text-3xl font-semibold p-3">Shop-Oline</h1>
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
-              <p className="text-gray-600 z-10 relative p-3">
-              Shop-Tienda Online es una aplicación web de comercio electrónico de vanguardia que aprovecha una amplia 
-              gama de tecnologías de vanguardia para ofrecer una experiencia de compra en línea excepcional. Con un enfoque 
-              en la seguridad, la eficiencia y la funcionalidad, esta plataforma es una solución completa y confiable tanto 
-              para compradores como para vendedores.
-              </p>
-              <p className="text-gray-600 z-10 relative p-3">
-              Diseño Moderno y Atractivo: Shop-Tienda Online presenta un diseño moderno y atractivo que atrae a los visitantes 
-              desde el primer momento. La combinación de Yard, Tailwind y MongoDB permite una interfaz de usuario elegante y 
-              altamente funcional.
-              </p>
-             
+              <div>
+                <p className="text-gray-600 z-10 relative p-3">
+                Shop-Tienda Online es una aplicación web de comercio electrónico de vanguardia que aprovecha una amplia 
+                gama de tecnologías de vanguardia para ofrecer una experiencia de compra en línea excepcional. Con un enfoque 
+                en la seguridad, la eficiencia y la funcionalidad, esta plataforma es una solución completa y confiable tanto 
+                para compradores como para vendedores.
+                </p>
+                <p className="text-gray-600 z-10 relative p-3">
+                Diseño Moderno y Atractivo: Shop-Tienda Online presenta un diseño moderno y atractivo que atrae a los visitantes 
+                desde el primer momento. La combinación de Yard, Tailwind y MongoDB permite una interfaz de usuario elegante y 
+                altamente funcional.
+                </p>
+                <div className="m-auto flex justify-center mt-8">
+                      <Link href="/socialPage" className="items-center">
+                        <span className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                          Volver
+                        </span>
+                      </Link>
+                      <Link href="/chatPage" className="items-center ml-3">
+                        <span className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                          Seguir
+                        </span>
+                      </Link>
+                    </div>
+              </div>
               <div className="m-auto px-5 p-5 relative">
                   <Image className="rounded-md w-full cursor-pointer mb-36" 
                         src="/images/tiendaOline.jpeg" 

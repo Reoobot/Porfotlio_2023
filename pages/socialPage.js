@@ -1,5 +1,7 @@
 import CardFront from "@/components/CardFront";
 import NavLayout from "@/components/NavLayout";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function SocialPage() {
@@ -15,15 +17,28 @@ export default function SocialPage() {
               <h1 className="text-3xl font-semibold p-3">Social Page</h1>
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
               <p className="text-gray-600 z-10 relative p-3">
               Social Page es una impresionante aplicación web creada con tecnologías de vanguardia como Next.js y 
               Style Company, respaldada por potentes soluciones en la nube como Superbase, Google Cloud y AWS. 
               Esta plataforma redefine la experiencia de las redes sociales al ofrecer una amplia gama de funciones 
               innovadoras y una robusta infraestructura en la nube para garantizar un rendimiento óptimo.
               </p>
-             
+              <div className="m-auto flex justify-center">
+                    <Link href="/hotelPage" className="md:flex items-center">
+                      <span className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                        Volver
+                      </span>
+                    </Link>
+                    <Link href="ShopPage" className="md:flex items-center ml-3">
+                      <span className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md text-xl font-medium shadow-lg">
+                        Seguir
+                      </span>
+                    </Link>
+                  </div>
+              </div>
               <div className="m-auto px-5 p-5 relative">
-                  <img className="rounded-md w-full cursor-pointer mb-20" 
+                  <Image className="rounded-md w-full cursor-pointer mb-20" 
                         src="/images/social2.jpeg" 
                         alt="Imagen de la aplicación Tienda oline" 
                         width={500} 

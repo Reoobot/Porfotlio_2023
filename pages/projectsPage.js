@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ProjectsPage() {
   return (
-      <div className="sm:flex sm:mt-4 sm:max-w-4xl sm:mx-auto sm:gap-6">
+      <div className="sm:flex sm:mt-4 sm:max-w-4xl sm:mx-auto sm:gap-6 ">
         <div className="mr-11">
           <NavLayout/>
        </div>
