@@ -1,3 +1,4 @@
+import React from "react";
 export default function Technologies(){
     return(
         <div className="mt-5 p-4">
