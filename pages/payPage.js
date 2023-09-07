@@ -14,7 +14,7 @@ export default function PayPage() {
         <div className="md:w-3/4">
           <CardFront>
             <div className="mb-4">
-              <h1 className="text-3xl font-semibold p-3">Metodo de Pay "Stripe"</h1>
+              <h1 className="text-3xl font-semibold p-3">Metodo de Pay Stripe</h1>
             </div>
             <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4">
               <p className="text-gray-600 z-10 relative p-3">

@@ -61,7 +61,7 @@ export default function ProjectsPage() {
             <div className="relative text-center border-b shadow-lg m-3">
               <div>
                     <h2 className="text-3xl p-2 text-center font-semibold mt-10">
-                    Shop-Oline
+                    Shop Oline
                     </h2>
               </div>
                 <Image className="rounded-md " 
@@ -119,7 +119,7 @@ export default function ProjectsPage() {
             <div className="relative text-center border-b shadow-lg m-3">
               <div>
                     <h2 className="text-3xl p-2 text-center font-semibold">
-                    Metodo de Pay "Stripe"
+                    Metodo de Pay Stripe
                     </h2>
                 </div>
                 <Image className="rounded-md p-4"
@@ -195,7 +195,7 @@ export default function ProjectsPage() {
               <div className="relative text-center border-b shadow-lg m-3">
               <div>
                     <h2 className="text-3xl p-2 text-center font-semibold">
-                    Porfolio-BootCamp
+                    Porfolio BootCamp
                     </h2>
                 </div>
           

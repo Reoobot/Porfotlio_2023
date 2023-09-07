@@ -21,7 +21,7 @@ export default function Game() {
               Game The Dog es una encantadora aplicación web desarrollada con las tecnologías fundamentales de HTML, 
               CSS y JavaScript. Esta aplicación ofrece una experiencia de juego lúdica y entretenida centrada en cuidar 
               y jugar con una mascota virtual, un perro. Ideal para amantes de los animales y entusiastas de los juegos casuales, 
-              "Game The Dog" ofrece una experiencia relajante y adictiva.
+              Game The Dog ofrece una experiencia relajante y adictiva.
               </p>
               <div className="m-auto px-5 p-5 relative">
                   <Image className="rounded-md w-full cursor-pointer" 

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function BlogPage() {
 
     
@@ -51,7 +53,11 @@ export default function BlogPage() {
             <div key={index} className="bg-gray-100 p-4 rounded-md shadow-md">
               <h2 className="text-xl font-semibold">{section.title}</h2>
               <p>{section.content}</p>
-              <img className="rounded-md w-full mt-4" src={section.image} alt={`Imagen de ${section.title}`} />
+              <Image className="rounded-md w-full mt-4" 
+                  src={section.image} 
+                  alt={`Imagen de ${section.title}`} 
+                  width={500} 
+                    height={300}/>
             </div>
           ))}
         </div>

@@ -21,7 +21,7 @@ export default function PostFormCard() {
           </h2>
           <br />
           <span className="text-lg font-medium text-shadow-lg shadow-gray-300">
-            I work as a Full Stack Engineer and write blogs "sometimes" about all things software "so far"
+            I work as a Full Stack Engineer and write blogs sometimes about all things software so far
           </span>
         </div>
       </div>
