@@ -1,6 +1,7 @@
 import NavigationCard from "@/components/NavigationCard";
 import PostCard from "@/components/PostCard"; 
 import PostFormCard from "@/components/PostFormCard";
+import React from "react";
 
 export default function Layout({hideNavigation}) {
     let rightColumnClasses = '';

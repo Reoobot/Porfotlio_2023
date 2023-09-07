@@ -1,6 +1,7 @@
 import Link from "next/link";
-import ImageMosaic from "./ImageMosaic";
-import Videos from "./Videos";
+import ImageMosaic from "@/components/ImageMosaic";
+import Videos from "@/components/Videos";
+import React from "react";
 
 export default function Project(){
     return(

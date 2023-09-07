@@ -1,5 +1,6 @@
+import React from "react";
 import Link from "next/link";
-import Card from "./Card";
+import Card from "@/components/Card";
 
 export default function NavigationCard(){
     return(

@@ -1,8 +1,9 @@
-import Blog from "./Blog";
-import ButtonStart from "./ButtonStart";
-import Card from "./Card";
-import Project from "./Project";
-import Technologies from "./Technologies";
+import React from "react";
+import Blog from "@/components/Blog";
+import ButtonStart from "@/components/ButtonStart";
+import Card from "@/components/Card";
+import Project from "@/components/Project";
+import Technologies from "@/components/Technologies";
 
 export default function PostCard(){
     return(
