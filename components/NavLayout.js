@@ -14,7 +14,7 @@ export default function NavLayout({hideNavigation}) {
   return (
     <div className="md:flex mt-4 max-w-8xl mx-auto">
         {!hideNavigation && (
-      <div className="fixed md:static w-full bottom-0  -mb-5">
+      <div className="fixed md:static w-full bottom-0  -mb-5 z-50">
         <NavigationCard />
       </div>
         )}

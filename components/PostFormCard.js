@@ -11,6 +11,7 @@ export default function PostFormCard() {
           alt=""
           width={1200} 
           height={800} 
+          priority={true}
         />
       </div>
       <div className="text-center ">
